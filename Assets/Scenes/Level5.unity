@@ -6762,7 +6762,7 @@ GameObject:
   - component: {fileID: 895519245}
   m_Layer: 0
   m_Name: Platform (5)
-  m_TagString: Checkpoint6
+  m_TagString: Checkpoint 6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6907,7 +6907,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930668363}
-  m_LocalRotation: {x: 0.1739528, y: 0.68537617, z: -0.17395283, w: 0.68537605}
+  m_LocalRotation: {x: 0.17395282, y: 0.68537617, z: -0.17395283, w: 0.68537605}
   m_LocalPosition: {x: -0.09509754, y: 5.64, z: 9.400001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17089,7 +17089,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081991894}
-  m_LocalRotation: {x: 0.1739528, y: 0.68537617, z: -0.17395283, w: 0.68537605}
+  m_LocalRotation: {x: 0.17395282, y: 0.68537617, z: -0.17395283, w: 0.68537605}
   m_LocalPosition: {x: -0.09509754, y: 5.64, z: 9.400001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
