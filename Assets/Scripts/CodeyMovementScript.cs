@@ -77,5 +77,9 @@ public class CodeyMovementScript : MonoBehaviour
         {
             SceneManager.LoadScene("Level6");
         }
+        if (collision.gameObject.tag == "Checkpoint 7")
+        {
+            SceneManager.LoadScene("Cutscene Scene2");
+        }
     }
 }
