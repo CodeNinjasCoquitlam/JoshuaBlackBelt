@@ -19,6 +19,6 @@ public class StartScene : MonoBehaviour
 
     public void OnMouseDown()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Loading");
     }
 }

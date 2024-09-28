@@ -15,6 +15,7 @@ public class CodeyMovementScript : MonoBehaviour
     public bool rayDidHit;
     public int Jomp = 1;
     public Vector3 startingPosition;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,8 @@ public class CodeyMovementScript : MonoBehaviour
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
         startingPosition = transform.position;
+        animator = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
@@ -41,6 +44,7 @@ public class CodeyMovementScript : MonoBehaviour
         {
             rb.AddForce(new Vector3(0, 3, 0) * 3, ForceMode.Impulse);
             Jomp--;
+            animator.Play("Jump");
         }
         rayDidHit = Physics.Raycast(transform.position, Vector3.down, 1f);
         Debug.DrawRay(transform.position, Vector3.down, Color.red, 1f);
